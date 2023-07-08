@@ -1,6 +1,6 @@
-<article>
-  <h2>{{ article.title }}</h2>
-  <p>Author: {{ article.author }}</p>
-  <p>Date: {{ article.date }}</p>
-  <div [innerHTML]="article.content"></div>
-</article>
+<div class="article-container" *ngIf="articleId === 'article1'">
+    <app-java-strings-article></app-java-strings-article>
+</div>
+
+
+
